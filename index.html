@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>traveloo</title>
+  <link rel="stylesheet" href="index.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <h1 class="text-warning fs-1 fw-bolder">T<span class="text-dark fs-3 fw-bolder">ravelo</span></h1>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+          <li class="nav-item ">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+
+          <li class="nav-item ">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+
+          <li class="nav-item ">
+            <a class="nav-link" href="#package">Package</a>
+          </li>
+
+          <!-- <li class="nav-item ">
+            <a class="nav-link" href="#services">Services</a>
+          </li> -->
+
+
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             Services
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#services">services</a></li>
+              <li><a class="dropdown-item" href="#book">Book</a></li>
+
+              <li><a class="dropdown-item" href="#gallery">Gallery</a></li>
+              <li><a class="dropdown-item" href="#team">Team</a></li>
+
+            </ul>
+          </li>
+
+          <li class="nav-item ">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- section2 -->
+  <section id="home">
+
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./image/image5.2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption ">
+            <h5 class="text-light">Explore the beauty of nature </h5>
+            <h5 class="text-light">Discover the <span class="text-warning "> new</span>You </h5>
+            <p><a href="#" class="btn btn-warning mt-3">Learn more</a></p>
+          </div>
+
+        </div>
+        <div class="carousel-item">
+          <img src="./image/travel3.2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption ">
+            <h5 class="fs-1 fw-bolder text-light">The world is yours to explore </h5>
+            <h5 class="fs-1 fw-bolder text-warning">so start your journey now</h5>
+            <p><a href="#" class="btn btn-warning mt-3">Learn more</a></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./image/image3.51.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption ">
+            <h5 class="text-light fs-1 fw-bolder">Travel far enough</h5>
+            <p><a href="#" class="btn btn-warning mt-3">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- section3-->
+
+  <section id="about" class="about-section-padding">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-4 col-md-12 col-12"><br>
+          <div class="about-img"><br><br><br><br><br><br>
+            <img
+              src="./image/italy3.jpg"
+              alt="no image" class="img-fluid w-100 vh-75">
+          </div>
+        </div>
+
+        <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+          <div class="about-text">
+            <H1 class="text-dark fS-1 fw-bolder">ABOUT <span class="text-warning fS-1 fw-bolder">US</span> </H1><br><br>
+            <h2 class="text-dark fs-3  ">We Provide Best Quality services ever</h2><br>
+            <p>Travelo is a private retailer  that provides travel and tourism-related services to the general public on behalf of accommodation or travel suppliers to offer different kinds of travelling packages for each destination. Travelo can provide outdoor recreation, arranging logistics for luggage and medical items delivery for travellers upon request, public transport timetables, car rentals, and bureau de change services. Travel agencies can also serve as general sales agents for airlines that do not have offices in a specific region. Travelo's main function is to act as an agent, selling travel products and services on behalf of a supplier. They are also called Travel Advisors. They do not keep inventory in-hand unless they have pre-booked hotel rooms or cabins on a cruise ship for a group travel event such as a wedding, honeymoon, or other group event.</p>
+            <a href="#" class="btn btn-warning">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><br><br><br>
+
+  <!-- section4 -->
+
+
+
+
+
+
+  <!-- section5 -->
+  <section id="package" class="package section.padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-header text-center pb-5">
+            <h2 class="fs-1 fw-bolder text-dark">Start your <span class="text-warning fs-1 fw-bolder">J</span>ourney</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-center bg-white pb-2">
+            <div class="card body text-dark">
+              <div class="img-area mb-4">
+                <img src="./image/italy1.jpg" alt="no image" class="img-fluid">
+              </div>
+              <h3 class="card-title">Italy</h3>
+              <p class="lead">Italy is well-known for its architecture, culture, art, opera, literature, film, and fashion. </p>
+              <div class="star">
+                <span class="text-warning">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </span>
+                <i class="fa-solid fa-star"></i>
+              </div><br><br>
+              <h6>Price:<strong>$500</strong></h6><br>
+              <button class="btn bg-warning text-dark"><a class="text-dark text-decoration-none" href="#book">Book now</button></a>
+
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-center bg-white pb-2">
+            <div class="card body text-dark">
+              <div class="img-area mb-4">
+                <img src="./image/japan-tokyo-13.jpg" alt="no image" class="img-fluid">
+              </div>
+              <h3 class="card-title">Japan</h3>
+              <p class="lead">Japan is an island country in East Asia. It is situated in the northwest Pacific Ocean </p>
+              <div class="star">
+                <span class="text-warning">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </span>
+                <i class="fa-solid fa-star"></i>
+              </div><br><br>
+              <h6>Price:<strong>$500</strong></h6><br>
+              <button class="btn bg-warning text-dark"><a class="text-decoration-none text-dark" href="#book">Book now</button></a>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-center bg-white pb-2">
+            <div class="card body text-dark">
+              <div class="img-area mb-4">
+                <img src="https://wise.com/imaginary-v2/thailand-business-view.jpg" alt="no image" class="img-fluid">
+              </div>
+              <h3 class="card-title">Thailand</h3>
+              <p class="lead">Thailand is a Southeast Asian country. It's known for tropical beaches . </p>
+              <div class="star">
+                <span class="text-warning">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i></span>
+                <i class="fa-solid fa-star"></i>
+
+                <i class="fa-solid fa-star"></i>
+              </div><br><br>
+              <h6>Price:<strong>$400</strong></h6><br>
+              <button class="btn bg-warning text-dark"> <a class="text-dark text-decoration-none" href="#book">Book now</button></a>
+
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-center bg-white pb-2">
+            <div class="card body text-dark">
+              <div class="img-area mb-4">
+                <img src="./image/china2.jpeg" alt="no image" class="img-fluid">
+              </div>
+              <h3 class="card-title">China</h3>
+              <p class="lead">China, officially the People's Republic of China, is a country in East Asia.</p>
+              <div class="star">
+                <span class="text-warning">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i></span>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+
+                <i class="fa-solid fa-star"></i>
+              </div><br><br>
+              <h6>Price:<strong>$600</strong></h6><br>
+              <button class="btn bg-warning text-dark"><a class="text-decoration-none text-dark" href="#book">Book now</button></a>
+
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-center bg-white pb-2">
+            <div class="card body text-dark">
+              <div class="img-area mb-4">
+                <img src="https://wallpaperaccess.com/full/158177.jpg" alt="no image" class="img-fluid">
+              </div>
+              <h3 class="card-title">Spain</h3>
+              <p class="lead">Spain is a storied country of stone castles,  vast monuments, and sophisticated cities</p>
+              <div class="star">
+                <span class="text-warning">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i></span>
+                <i class="fa-solid fa-star"></i>
+
+                <i class="fa-solid fa-star"></i>
+              </div><br><br>
+              <h6>Price:<strong>$300</strong></h6><br>
+              <button class="btn bg-warning text-dark"><a class="text-dark text-decoration-none" href="#book">Book now</button></a>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-center bg-white pb-2">
+            <div class="card body text-dark">
+              <div class="img-area mb-4">
+                <img src="./image/korea12.jpg" alt="no image" class="img-fluid">
+              </div>
+              <h3 class="card-title">South Korea</h3>
+              <p class="lead">South Korea, officially the Republic of Korea, is a country in East Asia. </p>
+              <div class="star">
+                <span class="text-warning">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+
+                  <i class="fa-solid fa-star"></i></span>
+              </div><br><br>
+              <h6>Price:<strong>$800</strong></h6><br>
+              <button class="btn bg-warning text-dark"><a class="text-dark text-decoration-none" href="#book">Book now</button></a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section><br>
+
+
+  <section id="services" class="services section-padding">
+    <div class="container ">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-header text-center pb-5">
+            <h2 class="text-dark fs-1 fw-bolder">Our <span class="text-warning fs-1 fw-bolder">Services</span> </h2>
+            <h2 class="text-dark fs-3  ">We Provide Best Quality services ever</h2>
+          </div>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-white text-center bg-dark pb-2">
+            <div class="card-body">
+              <i class="fa-solid fa-hotel"></i>
+              <h3 class="card-title text-warning">Affordable Hotel</h3>
+              <p class="lead">Besides providing an accommodation for temporary staying, related services such as changing bedclothes, giving towels and hygiene items, the opportunity to use appliances and TV set, cleaning and sanitation are available</p>
+              <button class="btn btn-warning text-dark">Read more</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-white text-center bg-dark pb-2">
+            <div class="card-body">
+              <i class="fa-solid fa-utensils"></i>
+              <h3 class="card-title text-warning">Best food</h3>
+              <p class="lead">World's's fastest growing travel food & retail company, TFS brings the choicest spread of National and International Cuisines and Fine dine experienceWe offer a variety of cuisines to choose from including , Chinese, Italian.</p>
+              <button class="btn btn-warning text-dark">Read more</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-white text-center bg-dark pb-2">
+            <div class="card-body">
+              <i class="fa-solid fa-earth-americas text"></i>
+              <h3 class="card-title text-warning">Around the world</h3>
+              <p class="lead">Round The World Travel and ToursIndia's leading travel website, offering you the best prices on flights, hotels and holiday packages across world.Travel creates unforgettable experiences</p>
+              <button class="btn btn-warning text-dark">Read more</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section><br>
+
+  <!-- section6 -->
+
+  <section class="book" id="book">
+    <div class="container">
+      <div class="main-text">
+        <div class="col-md-12  ">
+        <h1 class="text-dark fs-1 fw-bolder"><span>B</span>ook</h1>
+      </div>
+    </div>
+      <div class="row">
+        <div class="col-md-6 py-3 py-md-0">
+          <div class="card">
+            <img src="./image/about1.webp" alt="no image">
+          </div>
+        </div>
+
+        <div class="col-md-6 py-3 py-md-0">
+          <form action="#">
+            <input type="text" class="form-control"placeholder="Where to"required> <br>
+            <input type="text" class="form-control"placeholder="How many"required> <br>
+            <input type="date" class="form-control"placeholder="Arivals"required> <br>
+            <input type="date" class="form-control"placeholder="Leaving"required> <br>
+            <textarea class="form-control"rows="5" name="text" placeholder="Enter your Details"></textarea>
+            <!-- <input type="Sunbit"value=Book now class="submit"required> -->
+            <button class="btn bg-warning text-dark">Book now</button>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </section><br>
+
+
+  <!-- section 7 -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="main-text ">
+        <h1><span class="text-warning fs-1 fw-bolder">G</span>allery</h1>
+      </div>
+
+      <div class="row" style="margin-top: 30px;">
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./image/italy2.jpg" alt="no image" height="230px">
+          </div>
+        </div>
+
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="https://e0.pxfuel.com/wallpapers/745/137/desktop-wallpaper-travel-morocco-px-ultra.jpg" alt="no image" height="230px">
+          </div>
+        </div>
+
+
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./image/france.jpg" alt="no image" height="230px">
+          </div>
+        </div>
+
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./image/-seoul-2.jpg" alt="no image" height="230px">
+          </div>
+        </div>
+
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="https://jingculturecrypto.com/wp-content/uploads/2021/08/china-travel-chongqing.jpg" alt="no image" height="230px">
+          </div>
+        </div>
+
+        <div class="col-md-4 jpgpy-3 py-md-0">
+          <div class="card">
+            <img src="https://p4.wallpaperbetter.com/wallpaper/712/856/997/amsterdam-netherlands-wallpaper-preview.jpg" alt="no image" height="230px">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section><br><br><br><br>
+
+  <!-- section8 -->
+
+  <section id="team" class="section padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-header text-center pb-5">
+            <h2 class="text-warning fs-1 fw-bolder">O<span class="text-dark fs-1 fw-bolder">ur Team</span></h2>
+            <p class="fs-5">Get to know our experienced and friendly team of travel experts at Travelo Tour Packages</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card text center">
+            <div class="card-body text-center">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxpCDd4ofxwJZSxSmU8HRFbtMToTkc-JsMxsVgZuoq00Xs9sbNgGTW-TgFRIAjqF_Ve6k&usqp=CAU" alt="" class="img-fluid rounded-circle">
+              <h3 class="card-title py-2">Oliver</h3>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, non quas? Perspiciatis voluptates rerum non, cupiditate fuga dicta. Quidem odio iste deleniti dolorem exercitationem repellendus numquam enim, vitae cum repellat!</p>
+
+              <p class="socials">
+                <i class="fa-brands fa-facebook "></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card text center">
+            <div class="card-body text-center">
+              <img src="https://t4.ftcdn.net/jpg/02/14/74/61/360_F_214746128_31JkeaP6rU0NzzzdFC4khGkmqc8noe6h.jpg" alt="" class="img-fluid rounded-circle">
+              <h3 class="card-title py-2">
+                Noah</h3>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, non quas? Perspiciatis voluptates rerum non, cupiditate fuga dicta. Quidem odio iste deleniti dolorem exercitationem repellendus numquam enim, vitae cum repellat!</p>
+
+              <p class="socials">
+                <i class="fa-brands fa-facebook "></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card text center">
+            <div class="card-body text-center">
+              <img src="https://st3.depositphotos.com/1049680/36707/i/600/depositphotos_367079702-stock-photo-young-handsome-blond-man-beard.jpg" alt="" class="img-fluid rounded-circle">
+              <h3 class="card-title py-2">Lathem</h3>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, non quas? Perspiciatis voluptates rerum non, cupiditate fuga dicta. Quidem odio iste deleniti dolorem exercitationem repellendus numquam enim, vitae cum repellat!</p>
+
+              <p class="socials">
+                <i class="fa-brands fa-facebook "></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card text center">
+            <div class="card-body text-center">
+              <img src="https://t4.ftcdn.net/jpg/03/26/98/51/360_F_326985142_1aaKcEjMQW6ULp6oI9MYuv8lN9f8sFmj.jpg" alt="" class="img-fluid rounded-circle">
+              <h3 class="card-title py-2">Quinn</h3>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, non quas? Perspiciatis voluptates rerum non, cupiditate fuga dicta. Quidem odio iste deleniti dolorem exercitationem repellendus numquam enim, vitae cum repellat!</p>
+
+              <p class="socials">
+                <i class="fa-brands fa-facebook "></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- section9 -->
+
+  <section id="contact" class="contact section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-header text-center pb-5">
+            <h2 class="text-dark fs-1 fw-bolder">Contact <span class="text-warning fs-1 fw-bolder">Us</span> </h2>
+            <p class="fs-5">Send a message to us!</p>
+          </div>
+        </div>
+      </div>
+      <div class="row m-0">
+        <div class="col-md-12 p-0 pt-4 p-4 m-auto">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="mb-3">
+                <input type="text" class="form-control" required placeholder="Your name">
+              </div>
+            </div>
+
+            <div class="col-md-12">
+              <div class="mb-3">
+                <input type="email" class="form-control" required placeholder="Your Email">
+              </div>
+            </div>
+
+            <div class="col-md-12">
+              <div class="mb-3">
+               <textarea  rows="3" required class="form-control"placeholder="Your query Here"></textarea>
+              </div>
+            </div>
+
+            <button class="btn btn-warning btn-lg btn-block mt-3">Send Now</button>
+
+
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

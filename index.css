@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Alegreya+SC:ital,wght@0,400;0,500;1,400;1,500&family=Bangers&family=Bebas+Neue&family=Bodoni+Moda:ital,wght@0,400;0,500;1,400;1,500&family=Brawler:wght@400;700&family=Castoro+Titling&family=Crimson+Text:ital@0;1&family=Dancing+Script:wght@400;600;700&family=Neuton:ital,wght@0,300;0,400;1,400&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400&family=Sacramento&family=Shojumaru&family=Unna:ital,wght@0,400;0,700;1,400;1,700&family=Vollkorn:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+*{
+   font-family: 'Acme', sans-serif; 
+}
+
+body{
+    background: f1fbff;
+}
+.section-padding{
+    padding: 100px 0;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px; 
+}
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    font-size: 45px;
+    text-transform: uppercase;
+     letter-spacing: 2px;
+     margin-top: 25px;
+     padding: 10px 30px;
+     color: black;
+     margin-top: -3px;
+     font-weight: bold;
+     font-family: 'Times New Roman', Times, serif;
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.7);
+    z-index: 1; 
+    font-family: 'Brawler', serif;
+
+}
+
+/* .navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+    color: #000;
+} */
+
+.nav-link{
+    transition: all 0.2s;
+}
+
+.nav-item .nav-link:hover{
+    /* text-decoration: underline; */
+    border-bottom: 2px solid goldenrod;
+}
+
+.dropdown-menu .dropdown-item:hover{
+    border-bottom: 2px solid gold;
+    text-decoration-thickness: 5px;
+
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #000;
+}
+
+.w-100{
+    height: 100vh;
+
+}
+
+/* gallery */
+.gallery{
+    margin-top: 50px;
+
+}
+.gallery .card{
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.1) 0px 4px;
+    cursor: pointer;
+
+}
+
+.main-text{
+    margin-left: 50%;
+}
+.gallery .card img{
+    border-radius: 10px;
+    border-spacing: 10px;
+    transition: 0.5s;
+}
+.gallery .card img:hover{
+    transform: scale(1.1);
+}
+
+.services .card-body{
+    font-size: 50px;
+}
+.team .card-body i{
+    font-size: 20px;
+}
+.package .card{
+    box-shadow: 15px 15px 40px rgba(0,0,0,0.15);
+}
+
+.team.card{
+    box-shadow: 15px 15px 40px rgba(0,0,0,0.7);
+}
+
+.socials i:hover{
+    background:goldenrod;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive */
+
+@media only screen and (min-width:768px) and(max-width:991px){
+    .carousel-caption{
+        bottom: 370px;
+    }
+    .carousel-caption p{
+        width: 100%;
+
+    }
+}
+
+
+
+@media only screen and(max-width:767px){
+    .navbar-nav{
+        text-align: center;
+    }
+    .carousel-caption{
+        bottom: 125px;
+    }
+    .carousel-caption h5{
+        font-size: 17px;
+    }
+    .carousel-caption a{
+        padding: 10px 15px;
+    }
+    .carousel-caption p{
+        width: 100%;
+    }
+}
+
+
